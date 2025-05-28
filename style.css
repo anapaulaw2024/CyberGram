@@ -41,7 +41,7 @@ section ul{
   
 
 }
-section button{
+button{
   display: flex;
   flex-direction: row;
   font-family:'Times New Roman', Times, serif;
@@ -94,7 +94,7 @@ form input{
 .btn{
   width:5rem;
   height: 2rem;
-  cursor: ponter;
+  cursor: pointer;
   border-radius: 1rem;
 }
 footer{
