@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #7ca250;
-  color: #fff;
+  background-color: #959b95;
+  color: #000;
   font-family: Georgia,serif;
   display: flex;
   flex-direction: column;
 }
-h1{
+header{
   display: flex;
   flex-direction: row;
   background-color: #ddacd9;
@@ -20,25 +20,31 @@ h1{
   justify-content: center;
   align-items: center;
 }
+header img{
+  width:3rem;
+  height:2.5rem;
+  justify-content: left;
+}
 section{
   color: #000;
   
   
 }
-section ul{
+.intro-index{
   background-color: #ddacd9;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   padding: 3rem;
   margin-left: 0;
-  width:79rem;
-  text-decoration: none;
+  width:10rem;
+  text-decoration:none;
   align-items:center;
   justify-content: center;
   align-content: flex-start;
-
-  
+  box-sizing: content-box;
+  border-radius: 1rem;
+  width:5rem;
 
 }
 button{
